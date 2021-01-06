@@ -24,12 +24,12 @@ void polygon(int a, int b, int c, int d)
 }
 void colorcube()
 {
-	polygon(0, 3, 2, 1); // front face – counter clockwise
-	polygon(4, 5, 6, 7); // back face – clockwise
-	polygon(2, 3, 7, 6); // front face – counter clockwise
-	polygon(1, 5, 4, 0); // back face – clockwise
-	polygon(1, 2, 6, 5); // front face – counter clockwise
-	polygon(0, 4, 7, 3); // back face – clockwise
+	polygon(0, 3, 2, 1); // front face â€“ counter clockwise
+	polygon(4, 5, 6, 7); // back face â€“ clockwise
+	polygon(2, 3, 7, 6); // front face â€“ counter clockwise
+	polygon(1, 5, 4, 0); // back face â€“ clockwise
+	polygon(1, 2, 6, 5); // front face â€“ counter clockwise
+	polygon(0, 4, 7, 3); // back face â€“ clockwise
 }
 void display(void)
 {
