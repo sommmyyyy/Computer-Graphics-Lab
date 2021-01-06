@@ -108,4 +108,4 @@ void main(int argc, char** argv)
 	glutDisplayFunc(display);
 	myinit();
 	glutMainLoop();
-}
+}
